@@ -1,0 +1,35 @@
+body{
+  background: linear-gradient(90deg,purple ,cyan );
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+#galeria{
+  width: 800px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.325);
+  box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.15);
+  display:flex;
+  flex-wrap:wrap;
+}
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-track{
+  background:cyan;
+}
+::-webkit-scrollbar-thumb{
+  background:blue;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:purple;
+}
+
+.pixel{
+  width: 40px;
+  height: 40px;
+}
+.black{
+  background-color: black;
+}
